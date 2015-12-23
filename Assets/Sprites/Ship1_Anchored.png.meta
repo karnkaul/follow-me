@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 6d95f06fc5a908940a42591b5646bcd9
+timeCreated: 1450838748
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ship1_Anchored_0
+    21300002: Ship1_Anchored_1
+    21300004: Ship1_Anchored_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ship1_Anchored_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 472
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: -84}
+        - {x: -39, y: -64}
+        - {x: -31, y: -31}
+        - {x: -28, y: -19}
+        - {x: 28, y: -19}
+        - {x: 40, y: -69}
+        - {x: 42, y: -77}
+        - {x: 40, y: -94}
+        - {x: 14, y: -225}
+        - {x: 13, y: -231}
+        - {x: 12, y: -240}
+        - {x: 51, y: -240}
+        - {x: 88, y: -237}
+        - {x: 124, y: -234}
+        - {x: 146, y: -232}
+        - {x: 153, y: -225}
+        - {x: 209, y: -155}
+        - {x: 229, y: -129}
+        - {x: 230, y: -116}
+        - {x: 235, y: 4}
+        - {x: 236, y: 27}
+        - {x: 236, y: 100}
+        - {x: 232, y: 103}
+        - {x: 220, y: 111}
+        - {x: 157, y: 149}
+        - {x: 144, y: 157}
+        - {x: 129, y: 166}
+        - {x: 106, y: 180}
+        - {x: 91, y: 189}
+        - {x: 38, y: 221}
+        - {x: 20, y: 233}
+        - {x: 7, y: 240}
+        - {x: -6, y: 240}
+        - {x: -10, y: 238}
+        - {x: -25, y: 229}
+        - {x: -68, y: 203}
+        - {x: -187, y: 131}
+        - {x: -233, y: 103}
+        - {x: -236, y: 100}
+        - {x: -236, y: 27}
+        - {x: -235, y: 4}
+        - {x: -230, y: -116}
+        - {x: -229, y: -129}
+        - {x: -218, y: -143}
+        - {x: -183, y: -186}
+        - {x: -156, y: -220}
+        - {x: -146, y: -232}
+        - {x: -137, y: -233}
+        - {x: -51, y: -240}
+        - {x: -12, y: -240}
+        - {x: -11, y: -235}
+        - {x: -13, y: -225}
+        - {x: -19, y: -199}
+    - name: Ship1_Anchored_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 16
+        width: 472
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: -84}
+        - {x: -39, y: -64}
+        - {x: -31, y: -31}
+        - {x: -28, y: -19}
+        - {x: 28, y: -19}
+        - {x: 40, y: -69}
+        - {x: 42, y: -77}
+        - {x: 40, y: -94}
+        - {x: 14, y: -225}
+        - {x: 13, y: -231}
+        - {x: 12, y: -240}
+        - {x: 51, y: -240}
+        - {x: 88, y: -237}
+        - {x: 124, y: -234}
+        - {x: 146, y: -232}
+        - {x: 153, y: -225}
+        - {x: 209, y: -155}
+        - {x: 229, y: -129}
+        - {x: 230, y: -116}
+        - {x: 235, y: 4}
+        - {x: 236, y: 27}
+        - {x: 236, y: 100}
+        - {x: 232, y: 103}
+        - {x: 220, y: 111}
+        - {x: 157, y: 149}
+        - {x: 144, y: 157}
+        - {x: 129, y: 166}
+        - {x: 106, y: 180}
+        - {x: 91, y: 189}
+        - {x: 38, y: 221}
+        - {x: 20, y: 233}
+        - {x: 7, y: 240}
+        - {x: -6, y: 240}
+        - {x: -10, y: 238}
+        - {x: -25, y: 229}
+        - {x: -68, y: 203}
+        - {x: -187, y: 131}
+        - {x: -233, y: 103}
+        - {x: -236, y: 100}
+        - {x: -236, y: 27}
+        - {x: -235, y: 4}
+        - {x: -230, y: -116}
+        - {x: -229, y: -129}
+        - {x: -218, y: -143}
+        - {x: -183, y: -186}
+        - {x: -156, y: -220}
+        - {x: -146, y: -232}
+        - {x: -137, y: -233}
+        - {x: -51, y: -240}
+        - {x: -12, y: -240}
+        - {x: -11, y: -235}
+        - {x: -13, y: -225}
+        - {x: -19, y: -199}
+    - name: Ship1_Anchored_2
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 16
+        width: 472
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: -84}
+        - {x: -39, y: -64}
+        - {x: -31, y: -31}
+        - {x: -28, y: -19}
+        - {x: 28, y: -19}
+        - {x: 40, y: -69}
+        - {x: 42, y: -77}
+        - {x: 40, y: -94}
+        - {x: 14, y: -225}
+        - {x: 13, y: -231}
+        - {x: 12, y: -240}
+        - {x: 51, y: -240}
+        - {x: 88, y: -237}
+        - {x: 124, y: -234}
+        - {x: 146, y: -232}
+        - {x: 153, y: -225}
+        - {x: 209, y: -155}
+        - {x: 229, y: -129}
+        - {x: 230, y: -116}
+        - {x: 235, y: 4}
+        - {x: 236, y: 27}
+        - {x: 236, y: 100}
+        - {x: 232, y: 103}
+        - {x: 220, y: 111}
+        - {x: 157, y: 149}
+        - {x: 144, y: 157}
+        - {x: 129, y: 166}
+        - {x: 106, y: 180}
+        - {x: 91, y: 189}
+        - {x: 38, y: 221}
+        - {x: 20, y: 233}
+        - {x: 7, y: 240}
+        - {x: -6, y: 240}
+        - {x: -10, y: 238}
+        - {x: -25, y: 229}
+        - {x: -68, y: 203}
+        - {x: -187, y: 131}
+        - {x: -233, y: 103}
+        - {x: -236, y: 100}
+        - {x: -236, y: 27}
+        - {x: -235, y: 4}
+        - {x: -230, y: -116}
+        - {x: -229, y: -129}
+        - {x: -218, y: -143}
+        - {x: -183, y: -186}
+        - {x: -156, y: -220}
+        - {x: -146, y: -232}
+        - {x: -137, y: -233}
+        - {x: -51, y: -240}
+        - {x: -12, y: -240}
+        - {x: -11, y: -235}
+        - {x: -13, y: -225}
+        - {x: -19, y: -199}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

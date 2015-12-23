@@ -12,6 +12,11 @@ public class Follower3 : MonoBehaviour, IFollower
     public string status;
     public Transform target;
 
+    public AudioSource audioSource;
+    public AudioClip anchor;
+    [Range(0.1f, 1)]
+    public float volume = 0.5f;
+
     // Make private after debugging. Only public and serializable to show in inspector.
     public enum State { Moving, Retarding, Stopped, Ready };
     public State state;
@@ -27,17 +32,20 @@ public class Follower3 : MonoBehaviour, IFollower
     private bool _move = true, _motionDelayed = false, _retarding = false;
     private float angle;
     private Rigidbody rb;
+    private Animator animator;
 
     void Start ()
     {
         if (!target)
             target = GameObject.Find("Player").transform;
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
 
         properties.anchored = !moveOnStart;
         _move = moveOnStart; // Transfer
 
-        
+        if (!audioSource)
+            audioSource = GetComponent<AudioSource>();
 	}
 
     void Update ()
@@ -122,5 +130,7 @@ public class Follower3 : MonoBehaviour, IFollower
         else
             state = State.Ready;
         properties.anchored = !properties.anchored;
+        animator.SetBool("isAnchored", properties.anchored);
+        audioSource.PlayOneShot(anchor, volume);
     }
 }
